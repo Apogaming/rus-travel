@@ -1,0 +1,27 @@
+.lead__content{
+    margin: 70px auto 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+    .lead__content{
+        margin: 103px auto 0 auto;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .lead__content{
+        margin: 63px auto 0 auto;
+    }
+}
+@media screen and (max-width: 375px) {
+    .lead__content{
+        margin: 35px auto 0 auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__content{
+        margin: 68px auto 0 auto;
+    }
+}

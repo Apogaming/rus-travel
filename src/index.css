@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('./vendor/normalize.css');
+@import url('./styles/blocks/page/page.css');
+@import url('./styles/blocks/header/header.css');
+@import url('./styles/blocks/comments/comments.css');
+@import url('.//styles/blocks/comment/comment.css');
+@import url('./styles/blocks/cover/cover.css');
+@import url('./styles/blocks/footer/footer.css');
+@import url('./styles/blocks/intro/intro.css');
+@import url('./styles/blocks/lead/lead.css');
+@import url('./styles/blocks/photo-grid/photo-grid.css');
+@import url('./styles/blocks/places/places.css');
+@import url('./styles/blocks/video/video.css');
+@import url('./styles/blocks/content-title/content-title.css');
+@import url('./styles/blocks/content-subtitle/content-subtitle.css');
+@import url('./styles/blocks/container/container.css');
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
 }

@@ -1,0 +1,47 @@
+@import url('../place/place.css');
+.places {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 984px;
+  margin: 22px auto 0 auto;
+  color: #FFFFFF;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 90.5%;
+    margin: 34px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 93%;
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .places {
+    max-width: 95%;
+    margin-top: 110px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .places {
+    max-width: 100%;
+    font-family: 'Inter', Arial, sans-serif;
+    margin-top: 78px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 100%;
+    margin-top: 31px;
+  }
+}

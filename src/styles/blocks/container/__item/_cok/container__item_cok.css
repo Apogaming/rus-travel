@@ -1,0 +1,10 @@
+.container__item_cok{
+
+    background-image: url(../../../../../img/cok.jpg);
+       object-fit: cover;
+}
+.container__item_cok:hover{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../../../../../img/cok.jpg);
+    object-fit: cover;
+}

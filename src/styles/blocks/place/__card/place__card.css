@@ -1,0 +1,36 @@
+.place__card {
+  margin-bottom: 0;
+  max-width: 460px;
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+  .place__card {
+    margin: 0 auto;
+    max-width: 440px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place__card {
+    margin-bottom: 0;
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .place__card {
+    margin-bottom: 0;
+    max-width: 302px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place__card {
+    margin: 38px auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__card {
+    max-width: 100%;
+    margin-top: 32px;
+  }
+}

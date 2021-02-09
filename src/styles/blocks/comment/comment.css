@@ -1,0 +1,33 @@
+@import url('../comment/__image/comment__image.css');
+@import url('../comment/__quote/comment__quote.css');
+@import url('../comment/__author/comment__author.css');
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {
+    .comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 47px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comment {
+        margin-top: 57px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .comment {
+        margin-top: 43px;
+    }
+}

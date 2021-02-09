@@ -1,0 +1,10 @@
+.container__item_obs {
+    background-image: url(../../../../../img/observatory.jpg);
+    object-fit: cover;
+    
+}
+
+.container__item_obs:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../../../img/observatory.jpg);
+    object-fit: cover;
+}

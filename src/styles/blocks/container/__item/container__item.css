@@ -1,0 +1,46 @@
+@import url('../__item/_cok/container__item_cok.css');
+@import url('../__item/_obs/container__item_obs.css');
+.container__item {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:583px;
+
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+    /* .container__item {
+        max-width: 456px;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+    /* .container__item {
+        max-width: 352px;
+    } */
+}
+
+@media screen and (max-width: 700px) {
+    .container__item {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container__item {
+        max-width: 100%;
+    }
+    /* .container__item:first-child {
+        margin-bottom: 8px;
+        margin-right: 0;
+        margin-top: 0;
+    } */
+}
+
+@media screen and (max-width: 320px) {
+    .container__item {
+        max-width: 100%;
+    }
+}
