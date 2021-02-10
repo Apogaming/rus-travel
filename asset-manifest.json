@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rus-travel/static/css/main.b4f26bf9.chunk.css",
+    "main.css": "/rus-travel/static/css/main.3561ef85.chunk.css",
     "main.js": "/rus-travel/static/js/main.ab2127eb.chunk.js",
     "main.js.map": "/rus-travel/static/js/main.ab2127eb.chunk.js.map",
     "runtime-main.js": "/rus-travel/static/js/runtime-main.c0621672.js",
@@ -8,7 +8,7 @@
     "static/js/2.520d32e5.chunk.js": "/rus-travel/static/js/2.520d32e5.chunk.js",
     "static/js/2.520d32e5.chunk.js.map": "/rus-travel/static/js/2.520d32e5.chunk.js.map",
     "index.html": "/rus-travel/index.html",
-    "static/css/main.b4f26bf9.chunk.css.map": "/rus-travel/static/css/main.b4f26bf9.chunk.css.map",
+    "static/css/main.3561ef85.chunk.css.map": "/rus-travel/static/css/main.3561ef85.chunk.css.map",
     "static/js/2.520d32e5.chunk.js.LICENSE.txt": "/rus-travel/static/js/2.520d32e5.chunk.js.LICENSE.txt",
     "static/media/altai.0c2a23a5.jpg": "/rus-travel/static/media/altai.0c2a23a5.jpg",
     "static/media/App.css": "/rus-travel/static/media/observatory.81cc1e64.jpg",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0621672.js",
     "static/js/2.520d32e5.chunk.js",
-    "static/css/main.b4f26bf9.chunk.css",
+    "static/css/main.3561ef85.chunk.css",
     "static/js/main.ab2127eb.chunk.js"
   ]
 }
